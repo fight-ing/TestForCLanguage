@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define LOWER 10 /* 符号常量，全局变量 */
+
 int main (void) {
 	/*C语言中所有变量都必须先声明后使用  int--整数 float--浮点数 对于int型，通常为16位，取值范围-32768~32767 float类型通常为32位，至少有6位有效数字，取值范围一般在10^(-38)~10^(38)之间 ，char--字符，一个字节，short--短整型	long--长整形	double--双精度浮点型
 	printf 通用输出格式化函数,
